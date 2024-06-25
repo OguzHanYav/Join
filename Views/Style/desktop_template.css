@@ -1,0 +1,68 @@
+body {
+    max-width: 1920px;
+    max-height: 1024px;
+    margin: 0;
+}
+.tempHeader{
+    background-color: #4589ffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.tempJoinLogo{
+    width: 39px;
+}
+.tempUser{
+    width: 39px;
+    margin-right: 39px;
+    cursor: pointer;
+}
+.tempMenu{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.tempFont{
+    font-size: 19px;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 22.8px;
+    color: white;
+    cursor: pointer;
+}
+.curserPointer{
+    cursor: pointer;
+}
+.tempNavContainer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 20px;
+}
+.tempNavImg{
+    width: 186px;
+    height: 39px;
+}
+.aPrivacy{
+    color: black;
+    font-size: 1em;
+    font-weight: 200;
+    font-family: sans-serif;
+    text-decoration: none;
+    margin-left: 5px;
+}
+.aContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 300px;
+}
+.navBar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 232px;
+    
+}
