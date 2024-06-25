@@ -31,6 +31,7 @@ body {
     line-height: 22.8px;
     color: white;
     cursor: pointer;
+    text-decoration: none;
 }
 .curserPointer{
     cursor: pointer;
