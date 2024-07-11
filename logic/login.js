@@ -39,7 +39,7 @@ async function loginUser(email, password) {
         const user = userArray.find(user => user.email === email && user.password === password);
         if (user) {
             console.log("Login erfolgreich");
-            window.location.href = 'summary.html?msg=Login erfolgreich';
+            window.location.href = 'summery.html?msg=Login erfolgreich';
         } else {
             console.log("Ungültige E-Mail oder Passwort");
             alert("Ungültige E-Mail oder Passwort");
