@@ -6,10 +6,19 @@
     <title>Document</title>
     <script src="/logic/inculdeHTML.js"></script>
     <link rel="stylesheet" href="/Views/Style/desktop_template.css">
+    <link rel="stylesheet" href="/Views/Style/contact.css">
 </head>
 <body onload="includeHTML()">
-    <div w3-include-html="/Views/templates/desktop_template.html"></div>
-    <div w3-include-html="/Views/templates/contactCreate.html"></div>
-    <div w3-include-html="/Views/templates/contactEdit.html"></div>
+    <!-- <div w3-include-html="/Views/templates/desktop_template.html"></div> -->
+    <div class="tempHeader" w3-include-html="/Views/templates/header_template.html"></div>
+    <div style="display: flex;">
+        <div class="navBar" w3-include-html="/Views/templates/sideBar_template.html"></div>
+        <div class="contactsDiv">
+            <button class="addContactButton">Add new contact<img src="/Views/img/person_add.svg"/></button>
+            <div id="contacts" class="contacts">
+
+            </div>
+        </div>
+    </div>
 </body>
 </html>
