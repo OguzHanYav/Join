@@ -1,28 +1,37 @@
 body {
-    max-width: 1920px;
+    max-width: 1440px;
     max-height: 1024px;
+    width: 1440px;
+    height: 1024px;
     margin: 0;
 }
 .tempHeader{
     background-color: #4589ffff;
     padding-top: 20px;
     padding-bottom: 20px;
-    padding-left: 20px;
+    padding-left: 39px;
+    padding-right: 39px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    max-width: 1440px;
+    width: 1440px;
+    max-height: 1024px;
+    margin: 0;
 }
 .tempJoinLogo{
-    width: 39px;
+    width: 46px;
+    height: 56px;
 }
 .tempUser{
-    width: 39px;
-    margin-right: 39px;
+    width: 56px;
     cursor: pointer;
 }
 .tempMenu{
     display: flex;
     align-items: center;
     gap: 20px;
+    width: 433px;
 }
 .tempFont{
     font-size: 19px;
